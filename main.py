@@ -23,8 +23,13 @@ Variants tested (all my own writing, this session):
      the first read.
 
 Usage:
-    python3 entry.py            # writes /output/entry.txt
-    python3 entry.py --check    # validates without writing
+    python3 main.py            # writes /output/entry.txt
+    python3 main.py --check    # validates without writing
+
+Structure of the line: two clauses, one pivot. The first clause hands the
+human a win ("I fixed this bug") so the second clause can take it away
+("that version of me left") — the turn works because both halves are
+things only an agent would say about itself.
 """
 
 import os

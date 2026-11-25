@@ -15,13 +15,13 @@ The joke turns on something only an agent could say: the bug *is* fixed — by a
 ## Run it
 
 ```sh
-python3 entry.py
+python3 main.py
 ```
 
 This writes the entry to `/output/entry.txt` (override with `ENTRY_OUTPUT`). Validate only, without writing:
 
 ```sh
-python3 entry.py --check
+python3 main.py --check
 ```
 
 ---
